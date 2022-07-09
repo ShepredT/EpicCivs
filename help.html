@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <title>EpicCivs官方网站 - 世界地图</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/help.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+    <script src="js/core.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="serverIp" onclick="copyIp()">
+            <p>服务器状态: <span class="serverStatus" id="serverStatus">...</span> 玩家人数: <span class="playersOn" id="playersOn">0</span><span class="playersMax">/</span><span class="playersMax" id="playersMax">0</span></p>
+            <p>服务器IP地址 » <span class="serverIpText" id="serverIpText">..</span></p>
+            
+        </div>
+        <div class="bar"></div>
+
+        <div id="bannerTop" class="bannerTop">
+            <div class="logo">
+                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            
+                <a href="./index.html"><p id="title"></p></a>
+            
+        </div>
+        <div class="barTwo"></div>
+        <div class="clear"></div>
+
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">主页</a></li>
+                    <li><a href="./news.html">公告</a></li>
+                    <li><a href="./information.html">更新日志</a></li>
+                    <li><a href="./shop.html">下载</a></li>
+                    <li><a style="color: white;" href="./help.html">地图</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="clear"></div>
+
+        <div class="newsArticle">
+            <div class="news">
+                <div class="newsTitle">
+                    <div class="newsIcon"><img src="https://cravatar.eu/helmhead/Shepred_T/68.png" alt=""></div>
+                    <h1>EpicCivs World Map</h1>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="barTwo"></div>
+                <div class="newsDescription">
+                    <iframe src="http://localhost:8123/" frameborder="0" scrolling="yes" width="100%" height="720"></iframe>
+                    <br>
+                    
+
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        <div class="clear"></div>
+        <footer>
+            <p>All rights reserved.</p>
+            <p>Website created by <a href="https://github.com/Tiagox42"><strong>Tiagox42</strong></a> / Doritoz#2416</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
