@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <title>EpicCivs官方网站 - 更新日志</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/information.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/buttons.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="serverIp" onclick="copyIp()">
+            <p>服务器状态: <span class="serverStatus" id="serverStatus">...</span> 玩家人数: <span class="playersOn" id="playersOn">0</span><span class="playersMax">/</span><span class="playersMax" id="playersMax">0</span></p>
+            <p>服务器IP地址 » <span class="serverIpText" id="serverIpText">..</span></p>
+            
+        </div>
+        <div class="bar"></div>
+
+        <div id="bannerTop" class="bannerTop">
+            <div class="logo">
+                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            
+                <a href="./index.html"><p id="title"></p></a>
+            
+        </div>
+        <div class="barTwo"></div>
+        <div class="clear"></div>
+
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">主页</a></li>
+                    <li><a href="./news.html">公告</a></li>
+                    <li><a style="color: white;" href="./information.html">更新日志</a></li>
+                    <li><a href="./shop.html">下载</a></li>
+                    <li><a href="./help.html">地图</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="newsArticle">
+
+            <p class="articleTitle">信息</p>
+
+            <p class="articleDescription">对于EpicCivs服务器更新的内容，进行说明</p>
+
+            <div class="infoblock">
+                <div class="barPurple"></div>
+                <div class="infoblockText">
+                    <p class="infobTitle">title</p>
+                    <p class="infobDescription"> None</p>
+                    <p class="infobContent" id="content1">
+                        None
+                        
+                    </p>
+                </div>
+                <input class="infoblockButtonPurple" type="button" value="+" onclick="openContent1()" id="button1">
+            </div>
+
+            <div class="infoblock">
+                <div class="barRed"></div>
+                <div class="infoblockText">
+                    <p class="infobTitle">title</p>
+                    <p class="infobDescription"> None</p>
+                    <p class="infobContent" id="content2">
+                        None.
+                    </p>
+                </div>
+                <input class="infoblockButtonRed" type="button" value="+" onclick="openContent2()" id="button2">
+            </div>
+
+            <div class="infoblock">
+                <div class="barGreen"></div>
+                <div class="infoblockText">
+                    <p class="infobTitle">Title</p>
+                    <p class="infobDescription"> None
+                    </p>
+                    <p class="infobContent" id="content3">
+                        None
+                    </p>
+                </div>
+                <input class="infoblockButtonGreen" type="button" value="+" onclick="openContent3()" id="button3">
+            </div>
+
+            <div class="infoblock">
+                <div class="barYellow"></div>
+                <div class="infoblockText">
+                    <p class="infobTitle">Title</p>
+                    <p class="infobDescription"> None
+                    </p>
+                    <p class="infobContent" id="content4">
+                        None
+                    </p>
+                </div>
+                <input class="infoblockButtonYellow" type="button" value="+" onclick="openContent4()" id="button4">
+            </div>
+
+            <p class="articleDescription">None</p>
+
+
+
+        </div>
+
+
+
+        <div class="clear"></div>
+        <footer>
+            <p>版权所有.</p>
+            <p>网站创建者 <a href="https://github.com/Tiagox42"><strong>Tiagox42</strong>(github)</a></p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

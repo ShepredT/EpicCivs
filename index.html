@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <title>EpicCivs官方网站 - 主页</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+    <script src="js/core.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="serverIp" onclick="copyIp()">
+            <p>服务器状态: <span class="serverStatus" id="serverStatus">...</span> 玩家人数: <span class="playersOn" id="playersOn">0</span><span class="playersMax">/</span><span class="playersMax" id="playersMax">0</span></p>
+            <p>服务器IP地址 » <span class="serverIpText" id="serverIpText">..</span></p>
+            
+        </div>
+        <div class="bar"></div>
+
+        <div id="bannerTop" class="bannerTop">
+            <div class="logo">
+                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            
+                <a href="./index.html"><p id="title"></p></a>
+            
+        </div>
+        <div class="barTwo"></div>
+        <div class="clear"></div>
+        
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">主页</a></li>
+                    <li><a href="./news.html">公告</a></li>
+                    <li><a href="./information.html">更新日志</a></li>
+                    <li><a href="./shop.html">下载</a></li>
+                    <li><a href="./help.html">地图</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="homeGallery">
+
+            <div class="homeGalleryTwo">
+
+                <div id="image_Gfirst" class="hg1">
+                    <p id="text_Gfirst" class="textHGtwo"></p>
+                </div>
+
+                <div id="image_Gsecond" class="hg2">
+                    <p id="text_Gsecond" class="textHGtwo"></p>
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="homeGalleryOne">
+
+                <div id="image_Gtrird" class="hg3">
+                    <p id="text_Gtrird" class="textHGone"></p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="middleSection">
+            <div class="bannermiddle">
+
+                <div class="infoServer">
+                    <p style="color: #ffcc00;">本服务器采用 <strong><span id="typeServer">Full PVP</span></strong> 模式</p>
+                    <br>
+                    <p style="color: red;">以下免责声明</p>
+                    <br>
+                    <ul style="list-style-type: disc;">
+                        <li>游戏中的游戏本体、材质、插件、等</li>
+                        <li>所有权归属各自作者或公司</li>
+                        <li>该服务器非盈利性服务器</li>
+                        <li>仅限于对Minecraft游戏本身进行交流</li>
+                    </ul>
+                    <br>
+                    <p style="text-shadow: none;">Shepred_T 在此声明</p>
+                </div>
+
+            </div>
+
+
+            <div class="infoImage">
+                <img src="img/person2.png" alt="">
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="barTwo"></div>
+
+        <div class="comments">
+
+            <div class="co">
+                <img id="firstPlayerImage" src="" alt="">
+                <p id="firstPlayerName" class="cotitle"></p>
+                <p id="firstPlayerComment" class="cotext"></p>
+            </div>
+
+            <div class="co">
+                <img id="secondPlayerImage" src="" alt="">
+                <p id="secondPlayerName" class="cotitle">Denise</p>
+                <p id="secondPlayerComment" class="cotext">Fun, cute and cool. All my friends are playing here and let's make a clan, best server
+                    ever!</p>
+            </div>
+
+            <div class="co">
+                <img id="trirdPlayerImage" src="" alt="">
+                <p id="trirdPlayerName" class="cotitle">Wolf</p>
+                <p id="trirdtPlayerComment" class="cotext">I will defeat them all, wait for me!</p>
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="barTwo"></div>
+        <div id="bannerSocialImage" class="buttonsSocial">
+
+            <div class="butBox">
+
+                <div class="butIcon">
+                    <a id="urlYoutube" href="#"><img src="img/social4.png" alt=""></a>
+                </div>
+
+                <a id="discordInvite" href="#">
+                    <div class="butBoxDiscord">
+
+                        <div class="butIconDiscord">
+                            <img src="img/QQ.png" alt="">
+                        </div>
+
+                        <p><strong>招募</strong></p>
+                        <p>如果你有特殊技能，可以加入我们!</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <p>版权所有.</p>
+            <p>网站创建者 <a href="https://github.com/Tiagox42"><strong>Tiagox42</strong>(github)</a></p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
